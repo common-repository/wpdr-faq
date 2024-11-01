@@ -1,0 +1,243 @@
+/** Reset default styling */
+/*#faq-container div,
+#faq-container p {
+    margin: 0; padding: 0;
+}*/
+
+
+/* FAQ Skins */
+#faq-container.blue .question .toggle div {
+    background: transparent url('../images/styles/blue.png');
+}
+
+#faq-container.cyan .question .toggle div {
+    background: transparent url('../images/styles/cyan.png');
+}
+
+#faq-container.green .question .toggle div {
+    background: transparent url('../images/styles/green.png');
+}
+
+#faq-container.orange .question .toggle div {
+    background: transparent url('../images/styles/orange.png');
+}
+
+#faq-container.red .question .toggle div {
+    background: transparent url('../images/styles/red.png');
+}
+
+#faq-container.purple .question .toggle div {
+    background: transparent url('../images/styles/purple.png');
+}
+
+#faq-container.black .question .toggle div {
+    background: transparent url('../images/styles/black.png');
+}
+
+#faq-container.white .question .toggle div {
+    background: transparent url('../images/styles/white.png');
+}
+
+/* Titles */
+
+    /* Blue */
+    #faq-container.blue h3 { color: #0c2e4a; }
+    #faq-container.blue .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #0e315b; }
+    #faq-container.blue .question.expanded .toggle h4 { color: #0c2e4a; text-shadow: 0px 0px 0px #80b0cf; }
+
+    /* Cyan */
+    #faq-container.cyan h3 { color: #00a49d; }
+    #faq-container.cyan .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #00847d; }
+    #faq-container.cyan .question.expanded .toggle h4 { color: #003533; text-shadow: 0px 0px 0px #00dad7; }
+
+    /* Green */
+    #faq-container.green h3 { color: #529e11; }
+    #faq-container.green .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #2ca30e; }
+    #faq-container.green .question.expanded .toggle h4 { color: #326c00; text-shadow: 0px 0px 0px #d5f399; }
+
+    /* Orange */
+    #faq-container.orange h3 { color: #fd9300; }
+    #faq-container.orange .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #fd8100; }
+    #faq-container.orange .question.expanded .toggle h4 { color: #9e3400; text-shadow: 0px 0px 0px #ffeacc; }
+
+    /* Red */
+    #faq-container.red h3 { color: #d20000; }
+    #faq-container.red .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #9a0505; }
+    #faq-container.red .question.expanded .toggle h4 { color: #760000; text-shadow: 0px 0px 0px #ffd2d2; }
+
+    /* Purple */
+    #faq-container.purple h3 { color: #c31ba9; }
+    #faq-container.purple .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #9b1286; }
+    #faq-container.purple .question.expanded .toggle h4 { color: #770065; text-shadow: 0px 0px 0px #ffedfd; }
+
+    /* Black */
+    #faq-container.black h3 { color: #444444; }
+    #faq-container.black .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #191919; }
+    #faq-container.black .question.expanded .toggle h4 { color: #151515; text-shadow: 0px 0px 0px #a6a6a6; }
+
+    /* White */
+    #faq-container.white h3 { color: #444444; }
+    #faq-container.white .question.collapsed .toggle h4 { text-shadow: -1px -1px 0px #ffffff; color: #151515; }
+    #faq-container.white .question.expanded .toggle h4 { color: #151515; text-shadow: 0px 0px 0px #ffffff; }
+
+/* Nav Styling */
+
+    /* Blue */
+    #faq-container.blue .faq-nav a { color: #0c2e4a; }
+        #faq-container.blue .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center 0; }
+        #faq-container.blue .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center 0; }
+
+    /* Cyan */
+    #faq-container.cyan .faq-nav a { color: #00a49d; }
+        #faq-container.cyan .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -30px; }
+        #faq-container.cyan .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -30px; }
+
+    /* Green */
+    #faq-container.green .faq-nav a { color: #529e11; }
+        #faq-container.green .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -60px; }
+        #faq-container.green .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -60px; }
+
+    /* Orange */
+    #faq-container.orange .faq-nav a { color: #fd9300; }
+        #faq-container.orange .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -90px; }
+        #faq-container.orange .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -90px; }
+
+    /* Red */
+    #faq-container.red .faq-nav a { color: #d20000; }
+        #faq-container.red .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -120px; }
+        #faq-container.red .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -120px; }
+
+    /* Purple */
+    #faq-container.purple .faq-nav a { color: #c31ba9; }
+        #faq-container.purple .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -150px; }
+        #faq-container.purple .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -150px; }
+
+    /* Black */
+    #faq-container.black .faq-nav a { color: #444444; }
+        #faq-container.black .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -180px; }
+        #faq-container.black .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -180px; }
+
+    /* White */
+    #faq-container.white .faq-nav a { color: #444444; }
+        #faq-container.white .faq-nav a:hover { background: transparent url('../images/styles/hover.png') no-repeat center -210px; }
+        #faq-container.white .faq-nav a.current { background: transparent url('../images/styles/active.png') no-repeat center -210px; }
+
+/* Global Styling */
+
+
+.faq-nav {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dce7f0;
+    height: 21px; overflow: visible;
+}
+
+    .faq-nav a {
+        font-family: Tahoma, Serif;
+        font-size: 14px; font-weight: bold;
+        text-decoration: none;
+        margin-right: 20px;
+        padding: 0 15px 12px 15px;
+    }
+
+    /** Styles */
+
+.faq-questions {
+    overflow: hidden;
+}
+
+    .faq-questions h3 {
+        font-family: Tahoma, Serif; font-size: 16px;
+        display: block;
+        margin: 20px 0 5px 0;
+
+    }
+
+        .faq-questions .topics:first-child h3 {
+            /*margin-top: 10px;*/
+        }
+
+    /* Questions */
+    .question {
+        margin-bottom: 10px;
+    }
+
+        .question .toggle {
+            cursor: pointer;
+        }
+
+            /* Globals */
+
+            .question .toggle .left_c {
+                width: 13px; height: 34px;
+                float: left;
+                background-repeat: no-repeat;
+            }
+
+            .question .toggle .center_c {
+                margin: 0;
+                height: 34px;
+                background-repeat: repeat-x;
+                overflow: hidden;
+            }
+
+                .question .toggle h4 {
+                    color: #fefefe;
+                    font-family: Tahoma, Serif; font-size: 13px;
+                    line-height: 30px;
+                    margin: 0; font-weight: bold;
+                    padding: 0;
+                }
+
+            .question .toggle .right_c {
+                width: 42px; height: 34px;
+                float: right;
+                background-repeat: no-repeat;
+            }
+
+            /* Collapsed */
+
+                /* Normal */
+                #faq-container .question.collapsed .toggle .left_c { background-position: 0 0; }
+                #faq-container .question.collapsed .toggle .center_c { background-position: 0 -34px; }
+                #faq-container .question.collapsed .toggle .right_c { background-position: 0 -68px; }
+
+                /* Hover */
+                #faq-container .question.collapsed .toggle.hover .left_c { background-position: 0 -102px; }
+                #faq-container .question.collapsed .toggle.hover .center_c { background-position: 0 -136px; }
+                #faq-container .question.collapsed .toggle.hover .right_c { background-position: 0 -170px; }
+
+                /* Focus */
+                #faq-container .question.collapsed .toggle.focus .left_c { background-position: 0 -204px; }
+                #faq-container .question.collapsed .toggle.focus .center_c { background-position: 0 -238px; }
+                #faq-container .question.collapsed .toggle.focus .right_c { background-position: 0 -272px; }
+
+            /* Expanded */
+
+                /* Normal */
+                #faq-container .question.expanded .toggle .left_c { background-position: 0 -306px; }
+                #faq-container .question.expanded .toggle .center_c { background-position: 0 -340px; }
+                #faq-container .question.expanded .toggle .right_c { background-position: 0 -374px; }
+
+                /* Hover */
+                #faq-container .question.expanded .toggle.hover .left_c { background-position: 0 -408px; }
+                #faq-container .question.expanded .toggle.hover .center_c { background-position: 0 -442px; }
+                #faq-container .question.expanded .toggle.hover .right_c { background-position: 0 -476px; }
+
+                /* Focus */
+                #faq-container .question.expanded .toggle.focus .left_c { background-position: 0 -510px; }
+                #faq-container .question.expanded .toggle.focus .center_c { background-position: 0 -544px; }
+                #faq-container .question.expanded .toggle.focus .right_c { background-position: 0 -578px; }
+
+        .quest-content {
+            display: none;
+            background-color: #f8fcff;
+            border: 3px solid #e5eef6;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+            .quest-content p {
+                padding: 0 15px; /*margin: 0;*/
+                font-family: Arial, Serif; font-size: 12px; line-height: 16px;
+                text-align: justify; color: #797979;
+            }

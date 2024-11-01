@@ -1,0 +1,101 @@
+.clearer { clear: both; height: 0; }
+
+/** Menu Icon */
+#menu-posts-faq {}
+
+    #menu-posts-faq .wp-menu-image {
+        background: transparent url('../images/menu-icon.png') no-repeat 6px -30px !important;
+    }
+    
+        #menu-posts-faq .wp-menu-image a img {
+            display: none !important;
+        }
+
+        #menu-posts-faq:hover > .wp-menu-image {
+            background: transparent url('../images/menu-icon.png') no-repeat 6px 0 !important;
+        }
+
+        #menu-posts-faq.wp-has-current-submenu > .wp-menu-image {
+            background: transparent url('../images/menu-icon.png') no-repeat 6px -60px !important;
+        }
+
+#content_wpfaq {}
+
+    #content_wpfaq .mce_wpfaq {
+        background: transparent url('../images/tinymce-icon.png') no-repeat 0 0;
+    }
+
+        #content_wpfaq .mce_wpfaq:hover {
+            background: transparent url('../images/tinymce-icon.png') no-repeat 0 -20px;
+        }
+
+#faq-picker {}
+
+    #faq-picker li {
+        float: left; margin-right: 16px;
+        padding: 4px;
+    }
+
+        #faq-picker li.current {
+            padding: 3px;
+            background: #fff;
+            border-radius: 6px; border: 1px solid #cfcfcf;
+            box-shadow: 0px 0px 3px #e1e1e1;
+        }
+
+        #faq-picker li .skin-button {
+            width: 50px; height: 50px;
+            background: transparent url('../images/styles/picker-buttons.png');
+            cursor: pointer;
+        }
+
+            /* Styles */
+            #faq-picker li.blue-skin:hover .skin-button { background-position: -50px 0; }
+            #faq-picker li.blue-skin .skin-button, #faq-picker li.blue-skin.current .skin-button
+            { background-position: 0 0; }
+
+            #faq-picker li.cyan-skin:hover .skin-button { background-position: -50px -50px; }
+            #faq-picker li.cyan-skin .skin-button, #faq-picker li.cyan-skin.current .skin-button
+            { background-position: 0 -50px; }
+
+            #faq-picker li.green-skin:hover .skin-button { background-position: -50px -100px; }
+            #faq-picker li.green-skin .skin-button, #faq-picker li.green-skin.current .skin-button
+            { background-position: 0 -100px; }
+
+            #faq-picker li.orange-skin:hover .skin-button { background-position: -50px -150px; }
+            #faq-picker li.orange-skin .skin-button, #faq-picker li.orange-skin.current .skin-button
+            { background-position: 0 -150px; }
+
+            #faq-picker li.red-skin:hover .skin-button { background-position: -50px -200px; }
+            #faq-picker li.red-skin .skin-button, #faq-picker li.red-skin.current .skin-button
+            { background-position: 0 -200px; }
+
+            #faq-picker li.purple-skin:hover .skin-button { background-position: -50px -250px; }
+            #faq-picker li.purple-skin .skin-button, #faq-picker li.purple-skin.current .skin-button
+            { background-position: 0 -250px; }
+
+            #faq-picker li.black-skin:hover .skin-button { background-position: -50px -300px; }
+            #faq-picker li.black-skin .skin-button, #faq-picker li.black-skin.current .skin-button
+            { background-position: 0 -300px; }
+
+            #faq-picker li.white-skin:hover .skin-button { background-position: -50px -350px; }
+            #faq-picker li.white-skin .skin-button, #faq-picker li.white-skin.current .skin-button
+            { background-position: 0 -350px; }
+
+#update-faq-default-skin {
+    margin-top: 5px; float: left;
+}
+
+#update-faq-loader {
+    float: left; display: none;
+    margin: 10px 0 0 5px;
+}
+
+.wpfaq_widget {}
+
+    .wpfaq_widget .left { float: left; }
+    .wpfaq_widget .right { float: right; }
+
+.color-picker-ad {
+    float: right; margin: 10px 0 0 0;
+}
